@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "动态链接库", "动态链接库", "{FC0110E5-A009-4426-81EE-4D38DB4C6D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixService", "MatrixService\MatrixService.csproj", "{6B857539-ECC9-413E-9CC0-8D348044071A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "主程序", "主程序", "{5682B25E-7268-4268-8A9E-A9AC3E3B9D30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadVision", "RadVision\RadVision.csproj", "{2A014201-A843-4A7B-B110-E555DC85ACF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B857539-ECC9-413E-9CC0-8D348044071A} = {6B857539-ECC9-413E-9CC0-8D348044071A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B857539-ECC9-413E-9CC0-8D348044071A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B857539-ECC9-413E-9CC0-8D348044071A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B857539-ECC9-413E-9CC0-8D348044071A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B857539-ECC9-413E-9CC0-8D348044071A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A014201-A843-4A7B-B110-E555DC85ACF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A014201-A843-4A7B-B110-E555DC85ACF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A014201-A843-4A7B-B110-E555DC85ACF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A014201-A843-4A7B-B110-E555DC85ACF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B857539-ECC9-413E-9CC0-8D348044071A} = {FC0110E5-A009-4426-81EE-4D38DB4C6D51}
+		{2A014201-A843-4A7B-B110-E555DC85ACF4} = {5682B25E-7268-4268-8A9E-A9AC3E3B9D30}
+	EndGlobalSection
+EndGlobal
